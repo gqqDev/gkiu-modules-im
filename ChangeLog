@@ -1,0 +1,17 @@
+2011-08-06  Mike Ma <zhtx10@gmail.com>
+
+	* .gitignore, AUTHORS, COPYING, ChangeLog, INSTALL, Makefile.am,
+	NEWS, aclocal.m4, config.guess, config.sub, configure,
+	configure.ac, depcomp, install-sh, ltmain.sh, missing,
+	modules/Makefile.am, modules/iMode/Makefile.am,
+	modules/iMode/iMode.py, modules/imui/Makefile.am,
+	modules/imui/imui.py, modules/imui/imui_config.py,
+	modules/imui/imui_login.py, modules/imui/imui_windows.py,
+	modules/keyring/Makefile.am, modules/keyring/keyring.c,
+	modules/keyring/keyring.h, modules/messenger/Makefile.am,
+	po/Makefile.in.in, py-compile: for gkiu 2.9.9. writing.
+
+2011-08-04  Mike Ma <zhtx10@gmail.com>
+
+	* empty commit
+

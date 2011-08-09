@@ -51,8 +51,19 @@ G_MODULE_EXPORT void  peas_register_types                         (PeasObjectMod
 
 G_END_DECLS
 
-void keyring_savepwd (const char *usr, const char *pwd);
-void keyring_findpwd (const char *usr, char **pwd_buf);
-void keyring_delpwd (const char *usr);
+void keyring_savepwd (const char *usr, 
+                      const char *pwd,
+                      const char *prefix,
+                      void *use_prefix);
+
+void keyring_findpwd (const char *usr, 
+                      char **pwd_buf,
+                      void *u1,
+                      void *u2);
+
+void keyring_delpwd (const char *usr,
+                     void *u1,
+                     void *u2,
+                     void *u3);
 
 #endif /* GKMOD_KEYRING_H */
